@@ -132,7 +132,6 @@ section .container .wrapper .sidebar {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
 
 .sidebar .user-name {
@@ -171,7 +170,6 @@ section .container .wrapper .sidebar {
 }
 
 .sidebar .top .links {
-
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -203,12 +201,9 @@ section .container .wrapper .sidebar {
 	width: 100%;
 	border-top: 1px solid #0000001A;
 	padding-top: 5px;
-
-
 }
 
 .sidebar .bottom .leave {
-
 	display: flex;
 	width: 100%;
 	background: linear-gradient(to right, #FF416C, #FF4B2B);
@@ -223,7 +218,6 @@ section .container .wrapper .sidebar {
 	letter-spacing: 0em;
 	text-align: left;
 }
-
 
 section .container .wrapper .change-settings-screen {
 	height: 100%;
@@ -241,7 +235,6 @@ section .container .wrapper .change-settings-screen {
 	letter-spacing: 0em;
 	text-align: left;
 	margin-bottom: 30px;
-
 }
 
 .change-settings-screen .links-to-departments {
@@ -256,7 +249,6 @@ section .container .wrapper .change-settings-screen {
 	line-height: 28px;
 	letter-spacing: 0em;
 	text-align: center;
-
 	display: flex;
 	gap: 50px;
 }
@@ -264,8 +256,6 @@ section .container .wrapper .change-settings-screen {
 .change-settings-screen .links-to-departments ul li:first-child {
 	border-bottom: 1px solid #000000;
 }
-
-
 
 .inputs-and-user {
 	display: flex;
@@ -282,8 +272,6 @@ section .container .wrapper .change-settings-screen {
 	row-gap: 10px;
 }
 
-
-
 .user-input {
 	display: flex;
 	flex-direction: column;
@@ -299,21 +287,16 @@ section .container .wrapper .change-settings-screen {
 
 .user-input label.text {
 	font-size: 0.75rem;
-
 	font-family: Inter;
 	font-size: 10px;
 	font-weight: 200;
 	line-height: 12px;
 	letter-spacing: 0em;
 	text-align: left;
-
 	background-color: #ffffff00;
-
 	position: relative;
 	top: 1rem;
 	margin: 0 0 0 10px;
-
-
 	width: fit-content;
 }
 
@@ -321,11 +304,11 @@ section .container .wrapper .change-settings-screen {
 	padding: 16px 10px 10px 10px;
 	font-size: 1rem;
 	border: 1px #5D5D5D80 solid;
-
 	border-radius: 10px;
 	background: #fff;
 }
-.user-input.no-title input[type=text].input{
+
+.user-input.no-title input[type=text].input {
 	padding: 13px 10px 13px 10px;
 }
 
@@ -342,7 +325,6 @@ section .container .wrapper .change-settings-screen {
 	text-align: left;
 }
 
-
 .save button {
 	position: relative;
 	top: 20%;
@@ -357,15 +339,7 @@ section .container .wrapper .change-settings-screen {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 200;
-
 }
-
-
-
-
-
-
-
 
 .user-icon {
 	display: flex;
@@ -379,14 +353,12 @@ section .container .wrapper .change-settings-screen {
 	justify-content: center;
 	align-items: center;
 	font-family: Inter;
-font-size: 48px;
-font-weight: 600;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: left;
-
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 58px;
+	letter-spacing: 0em;
+	text-align: left;
 }
-
 
 /* footer */
 footer {
